@@ -7,9 +7,7 @@ function App() {
     <>
       <section className="w-full relative min-h-screen">
         <div className="w-full md:w-[768px] xl:w-[1280px] mx-auto flex flex-col items-center gap-4 py-4">
-          <div className="w-32 h-32 flex items-center justify-center rounded-full bg-gray-300">
-            LOGO
-          </div>
+          <div class="w-full h-64 bg-[url('/images/logo.png')] bg-contain bg-center bg-no-repeat"></div>
           <p className="text-2xl font-bold text-center">{Info.title}</p>
         </div>
 
