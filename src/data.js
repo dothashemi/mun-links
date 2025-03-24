@@ -21,7 +21,7 @@ export const Links = [
   {
     type: "whatsapp",
     text: "واتس‌اپ",
-    value: "https://whatsapp.com/channel/0029VaOROIyFSAt9FEg2ml32",
+    value: "https://chat.whatsapp.com/FeeZg2BJeAv1RFgEvjsSrF",
   },
   {
     type: "telegram",
