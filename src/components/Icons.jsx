@@ -1,5 +1,6 @@
 import {
   Bars3Icon,
+  ChatBubbleLeftRightIcon,
   GlobeAltIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
@@ -21,6 +22,9 @@ export default function Icons({ name, className }) {
 
     case "globe-alt":
       return <GlobeAltIcon className={className} />;
+
+    case "chat-bubble-left-right":
+      return <ChatBubbleLeftRightIcon className={className} />;
 
     case "telegram":
       return (

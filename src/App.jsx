@@ -21,11 +21,11 @@ function App() {
                   <a
                     href={link.value}
                     target="_blank"
-                    className="w-full relative flex items-center justify-center gap-2 p-3 border border-stone-100 hover:border-emerald-600 rounded-lg hover:bg-emerald-600 hover:text-white cursor-pointer text-lg hover:shadow-sm"
+                    className="w-full relative flex items-center justify-center gap-2 p-3 border-2 border-stone-200 hover:border-emerald-600 hover:bg-emerald-600 hover:text-white cursor-pointer text-lg hover:shadow-sm overflow-hidden"
                   >
                     <Icons
                       name={link.type}
-                      className="absolute right-8 size-12 text-stone-100"
+                      className="absolute right-1 top-1 size-16 text-stone-200"
                     />
                     {link.text}
                   </a>

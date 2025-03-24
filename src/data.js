@@ -9,7 +9,7 @@ export const Links = [
     value: "https://ramkancity.ir/",
   },
   {
-    type: "globe-alt",
+    type: "chat-bubble-left-right",
     text: "سامانه‌ی ۱۳۷",
     value: "https://137.ramkancity.ir/",
   },
